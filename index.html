@@ -32,10 +32,9 @@
     <div class="reveal">
       <div class="slides">
         <section>
-          <h1>Introdução ao React</h1>
-          <h4>Curso introdutório a biblioteca do Facebook</h3>
+          <h2>Desenvolvimento de blogs e sites estáticos com Hexo</h2>
           <p>
-            Instrutor: <a href="http://www.diegopinho.com.br" target="_blank">Diego Martins de Pinho</a>
+            Instrutor: <a href="https://lucasjs.github.io" target="_blank">Lucas Silva</a>
           </p>
           <p>
             <small>
@@ -86,14 +85,14 @@
           <section>
             <h2>Instrutor</h2>
             <div id="left">
-              <img data-src="https://avatars2.githubusercontent.com/u/4473622" />
+              <img data-src="https://avatars1.githubusercontent.com/u/14945222?s=400&v=4" />
             </div>
             
             <div id="right">
               <ul>
-                <li><b>Nome:</b> Diego M. de Pinho</li>
-                <li><b>Idade:</b> 25 anos</li>
-                <li><b>Minibio:</b> Cofundador da CodePrestige, autor de livros pela Casa do Código, palestrante em eventos e eterno estudante.</li>
+                <li><b>Nome:</b> Lucas Silva</li>
+                <li><b>Idade:</b> #descubra</li>
+                <li><b>Minibio:</b> Desenvolvedor Front-end na Pagar.me, formado em Design Digital pela Universidade Anhembi Morumbi e Coorganizador dos Meetups React SP e Training Center Talks.</li>
               </ul>
             </div>
           </section>
@@ -101,10 +100,10 @@
             <h2>Redes Sociais</h2>
             <p class="links-redessociais">
               Acompanhe o instrutor nas redes sociais! <br>
-              <a href="http://www.diegopinho.com.br" target="_blank">Site</a> -
-              <a href="https://www.facebook.com/diego.pinho.31" target="_blank">Facebook</a> -
-              <a href="https://twitter.com/DiegoPinho" target="_blank">Twitter</a> -
-              <a href="https://www.linkedin.com/in/diegopinho/" target="_blank">LinkedIn</a>
+              <a href="https://www.lucasjs.github.io" target="_blank">Site</a> -
+              <a href="https://github.com/lucasjs" target="_blank">Github</a> -
+              <a href="https://twitter.com/lucas_dejsilva" target="_blank">Twitter</a> -
+              <a href="https://www.linkedin.com/in/lucasjsilva/" target="_blank">LinkedIn</a>
             </p>
           </section>
         </section>
@@ -114,91 +113,45 @@
           <ul>
             <li><a href="https://nodejs.org/en/" target="_blank">Node (versão > 6 LTS)</a></li>
             <li><a href="https://www.npmjs.com/" target="_blank">npm (versão > 3.x)</a></li>
-            <li><a href="https://github.com/facebookincubator/create-react-app" target="_blank">create-react-app</a></li>
+            <li><a href="https://git-scm.com/downloads">Git</a></li>
+            <li><a href="https://hexo.io/" target="_blank">hexo-cli</a></li>
             <li>Editor de texto</li>
           </ul>
         </section>
 
         <section>
           <section>
-            <h2>O que é o React?</h2>
+            <h2>O que é o Hexo?</h2>
             <p>
-              O React é uma <b>biblioteca</b> JavaScript para criação de <b>interfaces de usuário</b> em aplicações web, que foi idealizada pelo time de desenvolvimento do Facebook.
+              O Hexo é uma ferramenta simples, rápida e poderosa para criação blog. 
             </p>
           </section>
 
           <section>
+            <h2>Por que usar?</h2>
             <ul>
-              <li>Versão atual: 16.X</li>
-              <li>Criada por: Jordan Walke, engenheiro do Facebook</li>
-              <li>Primeiro release: Maio de 2013 na JSConf US</li>
-              <li>Utilizado por grandes empresas: Facebook, Instagram, Netflix, Sony etc...</li>
+              <li>Feito em <b>node.js</b></li>
+              <li>Documentação completa em vários idiomas</li>
+              <li>Diversos plugins e temas</li>
+              <li>Deploy simples para Githubpages, Heroku, etc.</li>
             </ul>
-          </section>
-
-          <section>
-            <h1>Mas pra que serve?</h1>
-            <p><small>O React foi desenvolvido com a seguinte missão:</small></p>
-            <p><i>"Como construir grandes aplicações com muitos dados que mudam frequentemente?"</i></p>
-          </section>
-
-          <section>
-            <ul>
-              <li>Focar somente na View</li>
-              <li>Utilizar o Virtual DOM</li>
-              <li>Trabalhar com componentes</li>
-            </ul>
-          </section>
-
-        </section>
-
-        <section>
-          <section>
-            <h1>Legal, mas... Como tudo isso funciona?</h1>
-          </section>
-
-          <section>
-            <h1>Como já dizia o Jack Estripador:</h1>
-            <p>“Vamos por Partes”</p>
           </section>
         </section>
 
         <section>
           <section>
-            <h1>Exercício 1</h1>
+            <h1>Instalação do hexo</h1>
           </section>
           <section>
-            <h2>Objetivo</h2>
-            <p>Criar um aplicativo com o create-react-app</p>
-          </section>
-          <section>
-            <ol>
-              <li>Abrir o terminal</li>
-              <li>Escolher um diretório</li>
-              <li>Executar o comando <pre><code class="hlbash" data-trim contenteditable>create-react-app nome_do_projeto</code></pre>
-              <li>Fazer networking enquanto ele cria o seu projeto =)</li>
-              <li>Abrir o projeto no seu editor de texto</li>
-              <li>Voltar ao terminal e subir o projeto com o comando <pre><code class="hlbash" data-trim contenteditable>npm start</code></pre></li>
-              <li>Alterar a mensagem para “O curso de React é demais”</li>
-            </ol>
-          </section>
+              <h2>Hexo</h2>
+              <p><pre><code class="hlbash" data-trim contenteditable>npm install -g hexo-cli</code></pre></p>
+            </section>
         </section>
 
         <section>
           <section>
-            <h2>create-react-app</h2>
-            <p>O <i>create-react-app</i> é um pacote que nos permite criar aplicações web utilizando o React <b>sem a necessidade fazer qualquer configuração</b>. Todas as ferramentas necessárias para desenvolvimento e deploy já estão embutidas.</p>
-          </section>
-          
-          <section>
-            <h2>Alguns dos plugins já configurados:</h2>
-            <ul>
-              <li><a href="https://github.com/postcss/autoprefixer" target="_blank">auto-prefixer</a></li>
-              <li><a href="https://github.com/eslint/eslint" target="_blank">eslint</a></li>
-              <li><a href="https://github.com/webpack/webpack" target="_blank">webpack</a></li>
-              <li><a href="https://github.com/babel/babel" target="_blank">babel</a></li>
-              <li><a href="https://github.com/facebook/jest" target="_blank">jest</a></li>
-            </ul>
+            <h2>hexo-cli</h2>
+            <p>O <i>hexo-cli</i> é um pacote que nos permite criar o nosso projeto, posts, rascunhos e páginas por linha de comando.</p>
           </section>
 
           <section>
@@ -212,321 +165,243 @@
               </thead>
               <tbody>
                 <tr>
-                  <td><small>README.md</small></td>
-                  <td><small>Arquivo de orientações do create-react-app. Está em inglês.</small></td>
-                </tr>
-                <tr>
                   <td><small>node_modules/</small></td>
                   <td><small>Todas as dependências necessárias para o projeto.</small></td>
                 </tr>
                 <tr>
+                  <td><small>scaffolds/</small></td>
+                  <td><small>Templates das páginas de conteúdo.</small></td>
+                </tr>
+                <tr>
+                  <td><small>source/</small></td>
+                  <td><small>Onde ficam os posts, rascunhos e páginas.</small></td>
+                </tr>
+                <tr>
+                  <td><small>themes/</small></td>
+                  <td><small>Onde ficam os temas do projeto.</small></td>
+                </tr>
+                <tr>
+                  <td><small>_config.yml</small></td>
+                  <td><small>Arquivo de configuração do projeto.</small></td>
+                </tr>
+                <tr>
+                  <td><small>.gitignore</small></td>
+                  <td><small>Lista de arquivos e pastas que não irão para o github.</small></td>
+                </tr> 
+                <tr>
                   <td><small>package.json</small></td>
                   <td><small>Arquivo de descrição do projeto. Possui informações como o nome, autor, versão e as dependências.</small></td>
-                </tr>
-                <tr>
-                  <td><small>public/</small></td>
-                  <td><small>Diretório que possui os arquivos públicos do seu projeto. Contém o html inicial.</small></td>
-                </tr>
-                <tr>
-                  <td><small>src/</small></td>
-                  <td><small>Pasta onde está contido todos os recursos do projeto, arquivos de imagem, css, javascript e afins.</small></td>
-                </tr>
+                </tr> 
               </tbody>
             </table>
           </section>
 
           <section>
-            <h2>Componentes Padrões</h2>
-            <p><small>Para que o desenvolvedor não comece a desenvolver os componentes do zero, o projeto padrão já vem criado com alguns componentes para inspirar e servir como exemplo:</small></p>
-            <div id="left">
-              <ul>
-                <li>App.css</li>
-                <li>App.js</li>
-                <li>App.test.js</li>
-                <li>index.css</li>
-                <li>index.js</li>
-                <li>logo.svg</li>
-              </ul>
-            </div>
-            <div id="right">
-              <img width="550" data-src="https://cdn-images-1.medium.com/max/1600/1*S1tkR_QoaT8sqcIDsUnLjw.png">
-            </div>
-          </section>
-
-          <section>
-            <h2>Package.json</h2>
-            <p>O package.json é o arquivo que descreve a sua aplicação. Ele contém informações importantes, como o nome do projeto, autor, data, versão, e-mail e a declaração de suas dependências.</p>
-          </section>
-
-          <section>
-            <pre><code class="hljson" data-trim contenteditable>
-              {
-                "dependencies": {
-                  "react": "^15.5.4",
-                  "react-dom": "^15.5.4"
-                },
-                "scripts": {
-                  "start": "react-scripts start",
-                  "build": "react-scripts build",
-                  "test": "react-scripts test --env=jsdom",
-                  "eject": "react-scripts eject"
-                }
-              }
-            </code></pre>
-          </section>
-
-          <section>
-            <h2>Comandos npm</h2>
+            <h2>Comandos</h2>
             <table class="ctable">
               <thead>
                 <tr>
                   <th>Comando</th>
                   <th>O que faz?</th>
-                  <th>Resultado</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td>start</td>
-                  <td>Inicia o servidor de desenvolvimento</td>
-                  <td>Na porta 3000 e abre o navegador automaticamente</td>
+                  <td>hexo init nome-do-projeto</td>
+                  <td>Criar o projeto</td>
                 </tr>
                 <tr>
-                  <td>test</td>
-                  <td>Inicia a execução dos testes</td>
-                  <td>Executa os testes utilizando o Jest e exibe os resultados no próprio console</td>
+                  <td>hexo new nome-do-post</td>
+                  <td>Cria um post para o blog</td>
                 </tr>
                 <tr>
-                  <td>run build</td>
-                  <td>Reúne o aplicativo em arquivos estáticos para produção</td>
-                  <td>Compila, traduz, minifica os recursos da aplicação e gera arquivos estáticos</td>
+                  <td>hexo new draft nome-do-draft-post</td>
+                  <td>Cria um post de rascunho para o blog</td>
                 </tr>
                 <tr>
-                  <td>run eject</td>
-                  <td>Remove a dependência do “react-scripts” e copia explicitamente as ferramentas de build, configurações e scripts dentro do diretório da aplicação</td>
-                  <td>Remove a dependência do “react-scripts” e deixa tudo manual para controle do desenvolvedor</td>
+                  <td>hexo publish nome-do-draft-post</td>
+                  <td>Publica o post de rascunho para o blog</td>
+                </tr>
+                <tr>
+                  <td>hexo new page nome-da-pagina</td>
+                  <td>Cria uma nova página</td>
+                </tr>
+                <tr>
+                  <td>hexo server</td>
+                  <td>Subir um servidor local</td>
+                </tr>
+                <tr>
+                  <td>hexo server --draft</td>
+                  <td>Subir um servidor local junto com os rascunhos</td>
                 </tr>
               </tbody>
             </table>
           </section>
-
-          <section>
-            <img data-src="images/ciclo-create-react-app.png" />
-          </section>
-
         </section>
 
         <section>
-          <section><h1>Exercício 2</h1></section>
           <section>
-            <h2>Objetivo</h2>
-            <p>Criar um novo componente na aplicação</p>
+            <h2>Front Matter</h2>
+            <p>Front-matter é um bloco de YAML ou JSON no início do arquivo que é usado para definir configurações para o conteúdo que será escrito (como páginas ou postagens).
+              O Front-matter é terminado por três traços quando escrito em YAML ou três ponto e vírgula quando escrito em JSON.</p>
           </section>
           <section>
-            <ol>
-              <li>Criar um novo arquivo javascript</li>
-              <li>Usar a estrutura do App.js para montar um novo Componente</li>
-              <li>Inserir o novo componente dentro do App</li>
-              <li>Exibir com sucesso na tela o novo Componente</li>
-            </ol>
+            <h2>Scaffolds</h2>
+            <p>São templates que as páginas de conteúdo irão usar, com informações vindo por padrão.</p>
           </section>
         </section>
 
         <section>
           <section>
-            <h2>Componentes React</h2>
-            <p>Há três tipos de componentes React</p>
-            <ol>
-              <li>React.createClass</li>
-              <li>Componentes de classe</li>
-              <li>Componentes sem estado</li>
-            </ol>
+            <h2>Tags e Categorias</h2>
+            <p>Usadas para agrupar conteúdo em seu projeto Hexo.</p>
           </section>
-          
           <section>
-            <h2>Componentes de classe</h2>
-            <p>Todo componente precisa de 3 coisas:</p>
-            <ul>
-              <li>importar o módulo <span class="fragment highlight-blue">React</span> e o <span class="fragment highlight-blue">Component</span> (classes)</li>
-              <li>estender o <span class="fragment highlight-blue">Component</span></li>
-              <li>ter o método <span class="fragment highlight-blue">render()</span> que retorna o HTML que deve ser renderizado</li>
-            </ul>
+            <h2>Criar tags</h2>
+            <p><pre><code class="hlbash" data-trim contenteditable>
+              tags:
+              - tag1
+              - tag2
+            </code></pre></p>
           </section>
+          <section>
+            <h2>Criar categorias</h2>
+            <p><pre><code class="hlbash" data-trim contenteditable>
+              categories:
+              - cat1
+              - cat2
+            </code></pre></p>
+          </section>
+          <section>
+            <h2>Criar subcategorias</h2>
+            <p><pre><code class="hlbash" data-trim contenteditable>
+              categories: [cat1, cat1.1]
+            </code></pre></p>
+          </section>
+        </section>
 
+        <section>
           <section>
-            <h2>HTML no JavaScript</h2>
-            <p><small>A sintaxe do JSX nos permite escrever o HTML no JavaScript!</small></p>
-            <pre><code class="hljs" data-trim contenteditable>
-              class App extends Component { 
-                render() {
-                  return (
-                    <div className="App">
-                      <header className="App-header">
-                        <img src={logo} className="App-logo" alt="logo" />
-                        <h1 className="App-title">Welcome to React</h1>
-                      </header>
-                      <p className="App-intro">
-                        To get started, edit <code>src/App.js</code> and save to reload.
-                      </p>
-                    </div>
-                  );
-                }
-              }
-            </code></pre>
-          </section>
-
-          <section>
-            <h2>ReactDOM</h2>
-            <p><small>O ReactDOM é o responsável por fazer a ponte entre o React e o HTML</small></p>
-            <pre><code class="hljs" data-trim contenteditable>
-              import React from 'react';
-              import ReactDOM from 'react-dom';
-              import './index.css';
-              import App from './App';
-              import registerServiceWorker from './registerServiceWorker';
-              
-              ReactDOM.render(<App />, document.getElementById('root'));
-              registerServiceWorker();
-            </code></pre>
-          </section>
-
-          <section>
-            <h2>Só preciso disso?</h2>
-            <p>
-              Sim. Este é o mínimo necessário para se criar um Componente. Para componentes mais complexos, utilizamos <span class="fragment highlight-blue">Estados (States)</span> e <span class="fragment highlight-blue">Propriedades (Props)</span>.
+              <h2>Tag Plugins</h2>
+             <p>
+              Trechos de código em que você pode adicionar ao seu arquivo markdown que permite adicionar um código específico sem ter que adicionar um código complexo.
             </p>
           </section>
-
           <section>
-            <h2>Propriedades</h2>
-            <p>As propriedades são simples atributos que passamos para nossos componentes!</p>
-            <pre><code class="hljs" data-trim contenteditable>
-              class App extends Component {
-                render() {
-                  return (
-                    <Espelho texto="texto" /></Espelho>
-                  );
-                }
-              }
-            </code></pre>
+              <h2>Trecho de código</h2>
+              <p><pre><code class="hlbash" data-trim contenteditable>
+                {% codeblock lang:javascript %}
+                  console.log('Hello World!');
+                {% endcodeblock %}
+              </code></pre></p>
           </section>
-
           <section>
-            <h2>Propriedades</h2>
-            <p>No componente em questão, podemos acessar esta propriedade e usá-la!</p>
-            <pre><code class="hljs" data-trim contenteditable>
-              class Espelho extends Component {
-                render() {
-                  return (
-                    <p>{this.props.texto}</p> 
-                  );
-                }
-              }
-            </code></pre>
-          </section>
-
-          <section>
-            <h2>Estados</h2>
-            <p>Estados guardam informações sobre o seu componente durante um período</p>
-            <p><small>Como por exemplo em um componente de relógio: para cada segundo você precisa atualizar o seu estado para poder mostrar a informação correta na tela</small></p>
-          </section>
-
-          <section>
-            <h2>DEMO</h2>
-            <p>Como usar os estados para atualizar um texto de acordo com o input do usuário</p>
-          </section>
-
-          <section>
-            <h2>Estados</h2>
-            <p><small>Toda vez que apertamos o botão, alteramos o estado do componente e o <code>render</code> é invocado automaticamente</small></p>
-            <pre><code data-trim contenteditable>
-              class App extends Component {
-                constructor(props) {
-                  super(props);
-                  this.state = {
-                    input: ''
-                  }
-                }
-              
-                render() {
-                  return (
-                    <div className="App" style={{color: this.state.color}}>
-                      <header className="App-header">
-                        <img src={logo} className="App-logo" alt="logo" />
-                        <h1 className="App-title">Welcome to React</h1>
-                      </header>
-                      <p className="App-intro">
-                        To get started, edit <code>src/App.js</code> and save to reload.
-                      </p>
-                      <input value={this.state.input} onChange={(event) => this.setState({input: event.target.value})} />
-                      <Espelho texto={this.state.input}></Espelho>
-                    </div>
-                  );
-                }
-              }
-            </code></pre>
-            <p><small><a href="https://gist.github.com/DiegoPinho/b74e1be45fc0b5255e7a26dbdad66daa" target="_blank">Link no Gist</a></small></p>
-          </section>
-
-          <section>
-            <h1>Resumo</h1>
-            <ol>
-              <li><small>Estados e Propriedades não são obrigatórios mas ajudam a criar componentes mais inteligentes</small></li>
-              <li><small>Propriedades são atributos que passamos para os componentes e acessíveis por meio do <code>this.props.nomeDaPropriedade</code></small></li>
-              <li><small>Estados guardam informações sobre um momento específico do componente. É setado no construtor do componente e atualizado por meio do método <code>setState</code>. Suas informações são acessíveis por meio do <code>this.state.nomePropriedade</code></small></li>
-            </ol>
-          </section>
-
+            <h2>Vídeo do youtube</h2>
+            <p><pre><code class="hlbash" data-trim contenteditable>
+              {% youtube id-do-video %}
+            </code></pre></p>
+        </section>
         </section>
 
         <section>
-          <section><h1>Extra</h1></section>
           <section>
-            <h2>Como podemos deixar o texto do componente Espelho azul?</h2>
+              <h2>Assets folder</h2>
+              <p>
+                Pastas para colocar conteúdos que podemos usar em nosso markdown.
+              </p>
           </section>
           <section>
-            <h2>Inline Styles</h2>
-            <p>Os componentes React utilizam atributos bem semelhantes ao que já estamos acostumados, mas são ligeiramente diferentes. No React os atributos são por padrão <i>CamelCase </i>. Por exemplo:</p>
-            <ul>
-              <li>background-color → backgroundColor</li>
-              <li>background-image → backgroundImage</li>
-              <li>allowfullscreen → allowFullScreen </li>
-            </ul>
+            <h2>Criando uma asset folder</h2>
+            <p><pre><code class="hlbash" data-trim contenteditable>
+              mkdir source/assets
+            </code></pre></p>
           </section>
           <section>
-            <pre><code data-trim contenteditable>
-              class Espelho extends Component {
-                render() {
-                  return (
-                    <p style={{"color":"blue"}}>{this.props.texto}</p>
-                  )
-                }
-              }
-              
-              export default Espelho;
-            </pre></code>
+            <h2>Importar uma imagem com Markdown</h2>
+            <p><pre><code class="hlbash" data-trim contenteditable>
+              ![legenda da imagem](/assets/imagem.jpg)
+            </code></pre></p>
           </section>
         </section>
 
         <section>
-          <h1>O que vimos?</h1>
-          <ul>
-            <li>Como criar um projeto do zero React do zero</li>
-            <li>Subir o projeto para desenvolvimento</li>
-            <li>Criar um novo Componente</li>
-            <li>Incluir um Componente dentro do outro</li>
-            <li>Passar propriedades de um Componente para outro</li>
-            <li>Mudar o estado de um Componente</li>
-          </ul>
+          <section>
+            <h2>Temas</h2>
+            <p>
+              <a href="https://hexo.io/themes/">https://hexo.io/themes/</a>
+            </p>
+          </section>
+          <section>
+            <h2>Plugins</h2>
+            <p>
+              <a href="https://hexo.io/plugins/">https://hexo.io/plugins/</a>
+            </p>
+          </section>
+          <section>
+            <h2>Instalar o plugin Hexo-admin</h2>
+            <p><pre><code class="hlbash" data-trim contenteditable>
+                npm install --save hexo-admin
+            </code></pre></p>
+          </section>
+        </section>
+
+        <section>
+          <section>
+            <h1>Deploy para o Github Pages</h1>
+          </section>
+          <section>
+            <h2>Instale o pacote hexo-deployer-git</h2>
+            <p><pre><code class="hlbash" data-trim contenteditable>
+                npm install hexo-deployer-git --save
+            </code></pre></p>
+          </section>
+          <section>
+            <h2>Configurar o <i>_config.yml</i></h2>
+            <p><pre><code class="hlbash" data-trim contenteditable>
+              deploy:
+                type: git
+                repo: https://github.com/seu-usuario/seu-usuario.github.io
+            </code></pre></p>
+          </section>
+          <section>
+            <h2>Colocar nosso projeto em outra branch</h2>
+            <p><pre><code class="hlbash" data-trim contenteditable>
+              git checkout -b source
+            </code></pre></p>
+          </section>
+          <section>
+            <h2>Adicionar todo o projeto em stage</h2>
+            <p><pre><code class="hlbash" data-trim contenteditable>
+              git add .
+            </code></pre></p>
+          </section>
+          <section>
+            <h2>Criar um commit</h2>
+            <p><pre><code class="hlbash" data-trim contenteditable>
+              git commit -m "Projeto inicial"
+            </code></pre></p>
+          </section>
+          <section>
+            <h2>Fazer o push para a branch source</h2>
+            <p><pre><code class="hlbash" data-trim contenteditable>
+              git push origin source
+            </code></pre></p>
+          </section>
+          <section>
+            <h2>Deploy em um comando</h2>
+            <p><pre><code class="hlbash" data-trim contenteditable>
+                hexo deploy
+            </code></pre></p>
+          </section>
         </section>
 
         <section>
           <h1>Próximos Passos</h1>
-          <p><small>Agora que você já conhece o básico do React, é importante continuar estudando</small></p>
+          <p><small>Agora que você já conhece o básico do Hexo, é importante continuar estudando</small></p>
           <ul>
-            <li>Ciclo de vida</li>
-            <li>Como lidar com eventos</li>
-            <li>Renderização condicional</li>
+            <li>Criação de portfólio</li>
+            <li>Criação de temas</li>
+            <li>Uso de mais plugins</li>
           </ul>
         </section>
 
@@ -536,11 +411,7 @@
           </section>
           <section>
             <h2>Objetivo</h2>
-            <p>Criar uma página pessoal utilizando o create-react-app</p>
-          </section>
-          <section>
-            <h2>Exemplo</h2>
-            <p><a href="https://codepen.io/DiegoPinho/full/MQebWx">Ver exemplo no CodePen</a></p>
+            <p>Criar um post em seu blog</p>
           </section>
           <section>
             <h2>Prazo</h2>
@@ -549,17 +420,9 @@
           <section>
             <h2>Requisitos</h2>
             <ul>
-              <li>A página deve conter pelo menos uma imagem</li>
-              <li>Deve conter pelo menos 3 componentes (além do App.js)</li>
+              <li>O post pode ser de qualquer assunto</li>
+              <li>Seu blog deve ter qualquer tema personalizado</li>
             </ul>
-          </section>
-          <section>
-            <h2>Desafio</h2>
-            <p>Criar a página de forma responsiva utilizando o <a href="https://react-bootstrap.github.io/" target="_blank">React Bootstrap</a></p>
-          </section>
-          <section>
-            <h2>Entrega</h2>
-            <p>A entrega deve ser feita nesta <a href="https://github.com/codeprestige/curso-introducaoreact/issues/4" target="_blank">issue</a> do projeto no GitHub</p>
           </section>
         </section>
 
@@ -567,9 +430,8 @@
           <section>
             <h2>Materiais para estudo</h2>
             <ul>
-              <li><a href="https://reactjs.org/" target="_blank">Tutorial e documentação oficiais do React</a></li>
-              <li><a href="https://github.com/facebookincubator/create-react-app" target="_blank">GitHub: Create-React-App</a></li>
-              <li><a href="https://medium.com/code-prestige/configurando-aplica%C3%A7%C3%B5es-react-em-2-minutos-894025cbef82" target="_blank">Artigo: Como começar a sua aplicação React em poucos minutos</a></li>
+              <li><a href="https://hexo.io/pt-br/docs/" target="_blank">Documentação em Português</a></li>
+              <li><a href="https://www.youtube.com/watch?v=Kt7u5kr_P5o&list=PLLAZ4kZ9dFpOMJR6D25ishrSedvsguVSm" target="_blank">Tutorial em vídeo</a></li>
             </ul>
           </section>
         </section>
