@@ -12,11 +12,11 @@ Edições
 ------
 | Código        | Data          | Link  |
 | ------------- |:-------------:| -----:|
-| HEXO01       | 14/02/2018    | [aqui](https://www.eventbrite.com.br/e/curso-introducao-ao-react-tickets-41893284943)|
+| HEXO01       | 15/05/2018    | [aqui](http://curso-hexo.eventbrite.com.br/)|
 
 Descrição
 ------
-Neste curso, aprenderemos como usar o Hexo (gerador de sites estáticos) para criar um portfólio/blog e hospedagar gratuitamente no Github Pages. Veremos:
+Neste curso, aprenderemos como usar o Hexo (gerador de sites estáticos) para criar um portfólio/blog e hospedar gratuitamente no Github Pages. Veremos:
 
 
 - O que são sites estáticos
@@ -44,7 +44,7 @@ Alunos e profissionais de TI de qualquer nível de experiência.
 
 Instrutor
 ------
-**Diego Martins de Pinho**
+**Lucas J. Silva**
 
 Desenvolvedor Front-end na Pagar.me, formado em Design Digital pela Universidade Anhembi Morumbi e Coorganizador dos Meetups React SP e Training Center Talks.
 
